@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: none;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    height: 200px;
+    background-color: rgba(76, 219, 241, 0.365);
+    text-align: center;
+    align-content: center;
+    
+}
+
+header p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+
+#welcomeImgContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 10px 0;
+}
+
+#mainImg {
+    width: 100%;
+}
+
+#welcomeImg {
+    display: flex;
+}
+
+#discover {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0 10px 0;
+
+}
+
+.discoverItem {
+    width: 24%;
+
+}
+
+
+footer {
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+    align-content: center;
+}
+
+
+footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
